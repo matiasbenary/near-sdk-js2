@@ -11,7 +11,7 @@ declare enum PromiseIndexBrand {
 /**
  * A PromiseIndex which represents the ID of a NEAR Promise.
  */
-export declare type PromiseIndex = (number | bigint) & PromiseIndexBrand;
+export declare type PromiseIndex = (number | bigint) | PromiseIndexBrand;
 /**
  * A number that specifies the amount of NEAR in yoctoNEAR.
  */
