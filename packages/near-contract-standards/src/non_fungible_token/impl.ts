@@ -690,7 +690,7 @@ export class NonFungibleToken
     let must_revert = false;
     let p: string;
     try {
-      p = near.promiseResult(0);
+      p = near.promiseResult(-1);
     } catch (e) {
       if (e.message.includes("Not Ready")) {
         throw new Error();
